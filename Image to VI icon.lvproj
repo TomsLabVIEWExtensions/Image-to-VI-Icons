@@ -13,11 +13,11 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Convert Folder of VIs to Image.vi" Type="VI" URL="../Convert Folder of VIs to Image.vi"/>
+			<Item Name="Convert PNG to VIs.vi" Type="VI" URL="../Convert PNG to VIs.vi"/>
 			<Item Name="Create Directory Recursive - Compatable.vi" Type="VI" URL="../Create Directory Recursive - Compatable.vi"/>
 		</Item>
-		<Item Name="Convert Folder of VIs to Image.vi" Type="VI" URL="../Convert Folder of VIs to Image.vi"/>
-		<Item Name="Convert PNG to VIs.vi" Type="VI" URL="../Convert PNG to VIs.vi"/>
-		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
+		<Item Name="Image to VI Icons.vi" Type="VI" URL="../Image to VI Icons.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
